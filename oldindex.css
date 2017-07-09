@@ -1,0 +1,85 @@
+/* Making the border with dashed line */
+h1 {
+    font-size: 5em;
+    color: red;
+    font-style: italic;
+    text-decoration: underline;
+    font-family: "kurale", "monspace";
+    text-shadow: 3px 3px 5px black;  
+    border: 10px  dashed blue;
+    padding: 10px;
+    margin: 10px;  
+}
+
+li{
+    background-color: blue;
+    padding: 10px;
+    margin:5px;
+}
+
+.underline{
+    text-decoration: underline black
+}
+
+.red-colour {color: red}
+.blue-colour {color: blue}
+
+
+
+
+.box-blue{
+    background-color: lightblue;
+    border:10px blue solid;
+    width: 200px;
+    height: 200px; 
+    transition-property: border-radius,background-colour, border;
+    transition-duration: 500ms;
+    transition-timing-function:linear;
+}
+
+/* Make Blue square to become red circle using hover function */
+.box-blue:hover{
+    background-color: pink;
+    border-radius: 150px;
+    border:5px red dotted;
+}
+
+/* Make 'Hello' to rise up */
+.riseup{
+    font-size:2em;
+    text-shadow: 0px 0px 0px gray;
+    transition-property: text-shadow;
+    transition-duration: 300ms;
+    transition-timing-function: linear;
+}
+
+.riseup:hover{
+    text-shadow: 7px 7px 5px grey;
+}
+
+
+/* Make 'Hello' to be big */
+h1 {
+    font-size: 5em;
+    color: red;
+    font-style: italic;
+    text-decoration: underline;
+    font-family: "kurale", "monspace";
+    text-shadow: 3px 3px 5px black;  
+    border: 10px  dashed blue;
+    padding: 10px;
+    margin: 10px;
+}
+
+a:after{
+    content: "[Link]";    /* after the element */
+}
+
+p:before{
+    content:;
+}
+
+/*Make a Menu */
+
+
+
